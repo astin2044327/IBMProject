@@ -1,5 +1,10 @@
+echo  off
 
-echo  off  
-echo "performing unit test"
-echo "Colleting the infomation..."
-systeminfo >> c:\server1\srvlog.txt
+echo "*********************************"
+
+echo "                                  "
+echo "Deleting the folder..."
+rmdir /Q /S c:\server1
+
+echo "Creating the folder..."
+md c:\server1 
